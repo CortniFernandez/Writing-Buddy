@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 import Nav from './nav-and-foot/nav';
 import TargetApp from './todays-target/targetApp';
 import PromptApp from './prompt-gen/promptApp.js';

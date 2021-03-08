@@ -1,8 +1,11 @@
 import React from 'react';
+import './nav-and-foot.css';
 
 const Foot = () => {
   return (
-    <div>Footer</div>
+    <div className="foot-container">
+      <p>Footer</p>
+    </div>
   )
 }
 
